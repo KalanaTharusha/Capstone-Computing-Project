@@ -1,0 +1,39 @@
+version: '3.9'
+services:
+  postgresdb:
+    image: postgres:15-alpine
+    restart: always
+    container_name: postgresdb
+    ports:
+      - '6000:5432'
+    volumes:
+      - curtin_assist_db:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: passwordForRoot
+      POSTGRES_USER: root
+      POSTGRES_DB: capstone
+  backend:
+    container_name: backend
+    depends_on:
+      - postgresdb
+    image: curtin_assist_backend
+    ports:
+      - '8080:8080'
+    volumes:
+      - curtin_assist_db:/app
+    stdin_open: true
+    tty: true
+    environment:
+      DATASOURCE_URL: jdbc:postgresql://postgresdb:5432/capstone
+      DATASOURCE_USERNAME: root
+      DATASOURCE_PASSWORD: passwordForRoot
+  frontend:
+    container_name: frontend
+    image: curtin_assist_frontend
+    ports:
+      - '8083:80'
+    environment:
+      BASE_URL_W: http://localhost:8080
+      BASE_URL_M: http://10.0.2.2:8080
+volumes:
+  curtin_assist_db:

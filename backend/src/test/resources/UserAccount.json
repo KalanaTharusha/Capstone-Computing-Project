@@ -1,0 +1,11 @@
+{
+  "id": 1,
+  "userId": "1234",
+  "firstName": "kalindu",
+  "lastName": "abeysinghe",
+  "emailAddress": "kali@curtin.edu",
+  "imageId": null,
+  "role": "STUDENT",
+  "password": "fnsdlfnsdlfksd",
+  "userAccountStatus": "ACTIVATED"
+}

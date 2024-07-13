@@ -1,0 +1,29 @@
+{
+  "id": 11,
+  "name": "test updated",
+  "createdUser": {
+    "id": 3,
+    "userId": "2222",
+    "firstName": "Walter",
+    "lastName": "White",
+    "emailAddress": "noreply.ccsss@gmail.com",
+    "imageId": null,
+    "role": "LECTURER",
+    "userAccountStatus": "ACTIVATED"
+  },
+  "lastUpdatedUser": {
+    "id": 3,
+    "userId": "2222",
+    "firstName": "Walter",
+    "lastName": "White",
+    "emailAddress": "noreply.ccsss@gmail.com",
+    "imageId": null,
+    "role": "LECTURER",
+    "userAccountStatus": "ACTIVATED"
+  },
+  "dateCreated": "25-04-2024 07:53:44",
+  "dateLastUpdated": "25-04-2024 07:54:01",
+  "date": "2024-11-12",
+  "startTime": "22:30:00",
+  "endTime": "23:00:00"
+}

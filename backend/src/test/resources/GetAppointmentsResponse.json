@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "reason": "null",
+        "requestedUser": {
+            "userId": "1111",
+            "firstName": "Student",
+            "lastName": "User"
+        },
+        "directedUser": {
+            "userId": "4444",
+            "firstName": "Geethanjali",
+            "lastName": "Wimalaratne"
+        },
+        "requestedDate": "2024-04-26",
+        "requestedTime": "12:00:00",
+        "dateCreated": "2024-04-03T10:12:36.034174",
+        "dateLastUpdated": "2024-04-03T10:12:36.034116",
+        "location": null,
+        "status": "PENDING"
+    },
+    {
+        "id": 2,
+        "reason": "null",
+        "requestedUser": {
+            "userId": "1111",
+            "firstName": "Student",
+            "lastName": "User"
+        },
+        "directedUser": {
+            "userId": "5555",
+            "firstName": "Ann",
+            "lastName": "Fernando"
+        },
+        "requestedDate": "2024-04-26",
+        "requestedTime": "09:30:00",
+        "dateCreated": "2024-04-03T10:13:18.78813",
+        "dateLastUpdated": "2024-04-03T10:13:18.78807",
+        "location": null,
+        "status": "PENDING"
+    }
+]
