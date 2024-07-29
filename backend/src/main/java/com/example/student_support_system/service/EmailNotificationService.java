@@ -12,8 +12,8 @@ import java.net.http.HttpResponse;
 @Service
 public class EmailNotificationService {
 
-    private final String BREVO_API_KEY = "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"; // TODO: 1/10/2024 Hard coded
-    private final String BREVO_BASE_URL = "https://api.brevo.com/v3/smtp/email";
+    private final String BREVO_API_KEY = "";
+    private final String BREVO_BASE_URL = "";
 
     public EmailNotificationService() {
     }
