@@ -47,29 +47,29 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyD43tttY-4A0D70IxDXfbowBAIvD1BMPL0',
-    appId: '1:790077578955:web:d86f9118011ced449a054e',
-    messagingSenderId: '790077578955',
-    projectId: 'capstone-sss',
-    authDomain: 'capstone-sss.firebaseapp.com',
-    storageBucket: 'capstone-sss.appspot.com',
-    measurementId: 'G-29SC1Q3G1L',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    authDomain: '',
+    storageBucket: '',
+    measurementId: '',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyD57i6x84onru-CEIf3t0aXSrdbnPD0lLs',
-    appId: '1:790077578955:android:5cabaaf51320e30b9a054e',
-    messagingSenderId: '790077578955',
-    projectId: 'capstone-sss',
-    storageBucket: 'capstone-sss.appspot.com',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    storageBucket: '',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyD3iGDYPBOqR2TsveU8gdC6Wb4MYKgN9to',
-    appId: '1:790077578955:ios:0c7160a0fe05b1209a054e',
-    messagingSenderId: '790077578955',
-    projectId: 'capstone-sss',
-    storageBucket: 'capstone-sss.appspot.com',
-    iosBundleId: 'com.example.studentSupportSystem',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    storageBucket: '',
+    iosBundleId: '',
   );
 }
